@@ -11,6 +11,9 @@ CREATE TABLE `weather`.`SENSOR_DATA` (
   `created_at` DATETIME NULL,
   PRIMARY KEY (`id`));
 
+
+Change in application.properties - Provide username and password of your MySql database
+
 POSTMAN Details for testing 
 Method to create sensor data- POST request
 URL - http://localhost:8080/weather/createsensordata
@@ -35,3 +38,5 @@ Sample Json
   "fromDateTime": "2026-01-01T21:30:00",
   "toDateTime": "2026-02-01T00:30:00"
 }
+
+
